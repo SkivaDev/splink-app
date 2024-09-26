@@ -8,11 +8,6 @@
 # testing
 /coverage
 
-# database
-/prisma/db.sqlite
-/prisma/db.sqlite-journal
-db.sqlite
-
 # next.js
 /.next/
 /out/
@@ -44,3 +39,13 @@ yarn-error.log*
 
 # idea files
 .idea
+
+# prisma & dump files
+docker-compose.yml
+migrations
+dev.db
+dev.db-journal
+# mysql2sqlite
+# pscale*
+# db_dump.sql
+# dump-in-sqlite.db
